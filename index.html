@@ -10,9 +10,32 @@
 
 <body>
   <h1>Trains timetable</h1>
-  <img
-    src="https://www.japanhouselondon.uk/assets/New-Discover-page/_resampled/FillWyI3MjgiLCI0MTAiXQ/Shinkansen-Landing-page-banner.jpg"
-    alt="">
+  <img src="https://oyakata.com.pl/wp-content/uploads/2022/08/szybkie-pociagi-w-japonii-kolej-shinkansen.jpg" alt="">
+  <h1>Odjazdy/Departures</h1>
+
+  <h3>1 I - 31 III 2023</h3>
+  <button id="btnShowAll">Pokaż wszystkie połączenia</button>
+  <form id="searchDeparture">
+    <label>Wpisz nazwę stacji: <input type="text" id="searchRouteInput"></label>
+    <button>Wyszukaj połączenie</button>
+  </form>
+  <p id="noTrainsInfo"></p>
+  <div id="checkBoxDiv">
+    <label for=""> <input type="checkbox" id="checkIsIntericty"> Intercity</label>
+    <table id="departuresTable">
+      <thead>
+        <th>Stacja początkowa </th>
+        <th>Stacja docelowa</th>
+        <th>Data</th>
+        <th>Godzina odjazdu</th>
+        <th>Przewoźnik</th>
+      </thead>
+      <tbody id="departuresTableBody"></tbody>
+
+    </table>
+
+  </div>
+
 
 
   <script src="./js/main.js" type="module"></script>

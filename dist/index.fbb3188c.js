@@ -546,16 +546,201 @@ function hmrAcceptRun(bundle, id) {
 // {
 //   from: 'Szczecin',
 //   to: 'Poznań',
-//   date: '23.12.2023',
+//   date: '01.02.2023',
 //   time: '12:45',
 //   intercity: true
-// }
+// },
+// {
+//   from: 'Szczecin',
+//   to: 'Zakopane',
+//   date: '05.05.2023',
+//   time: '20:45',
+//   intercity: false
+// },
+// {
+//   from: 'Warszawa',
+//   to: 'Kraków',
+//   date: '23.12.2023',
+//   time: '20:45',
+//   intercity: false
+// },
+// {
+//   from: 'Wrocław',
+//   to: 'Warszawa',
+//   date: '03.12.2023',
+//   time: '20:45',
+//   intercity: false
+// },
 // ]
 // 2. Za pomoca petli forEach, wyswietl na stronie rozklad pociagow (ostyluj zadanie w miare mozliwosci).
 // 3. Nad rozkladem jazdy, dodaj wyszukiwarke. Jesli wpisze w wyszukiwarke slowo Warszawa, znajdz wszystkie polaczenia z lub do Warszawy.
 // 4. Pod wyszukiwarka stworz checkbox, ktory wyswietli tylko polaczenia intercity.
 // 5. Dodaj dynamiczne filtry z datami. Jesli klikniesz w dana date, wyswietla Ci sie polaczenia pociagow z tylko danego dnia.
 // -->
+var _trainRoutes = require("./trainRoutes");
+const departuresTableBody = document.querySelector("#departuresTableBody");
+const searchDepartureForm = document.querySelector("#searchDeparture");
+const searchRouteInput = document.querySelector("#searchRouteInput");
+const parNoTrainsInfo = document.querySelector("#noTrainsInfo");
+const btnShowAll = document.querySelector("#btnShowAll");
+const checkIsIntericty = document.querySelector("#checkIsIntericty");
+let renderedTrainRoutes = (0, _trainRoutes.trainRoutes);
+///////////////////wyświetlanie rozkładu
+const renderRoutes = ()=>{
+    departuresTableBody.innerHTML = "";
+    renderedTrainRoutes.forEach((route)=>{
+        departuresTableBody.innerHTML += `
+<tr>
+<td>${route.from}</td>
+<td>${route.to}</td>
+<td id="date">${route.date}</td>
+<td>${route.time}</td>
+<td>${route.intercity ? "Intercity" : "Inny przewoźnik"} </td>
+</tr>
+`;
+    });
+};
+renderRoutes();
+///////////////////obsługa wyszukiwarki
+const searchDepartureByStation = (event)=>{
+    event.preventDefault();
+    const filteredRoutes = [];
+    const inputValue = searchRouteInput.value.toLowerCase();
+    parNoTrainsInfo.innerText = "";
+    ///////wyszukanie wszystkich stacji
+    const stations = [];
+    (0, _trainRoutes.trainRoutes).forEach((route)=>{
+        if (!stations.includes(route.from)) stations.push(route.from.toLowerCase());
+        if (!stations.includes(route.to)) stations.push(route.to.toLowerCase());
+    });
+    ///////////sprawdzenie czy wpisana stacja jest w trasach
+    if (!stations.includes(inputValue)) {
+        parNoTrainsInfo.innerText = "Brak połączeń ze wskazaną stacją";
+        renderedTrainRoutes = (0, _trainRoutes.trainRoutes);
+        return;
+    }
+    //////////przefiltrowanie stacji
+    (0, _trainRoutes.trainRoutes).forEach((route)=>{
+        if (route.from.toLowerCase() === inputValue || route.to.toLowerCase() === inputValue) filteredRoutes.push(route);
+        renderedTrainRoutes = filteredRoutes;
+    });
+    renderRoutes();
+};
+searchDepartureForm.addEventListener("submit", searchDepartureByStation);
+/////////////wyszukiwanie po dacie
+const searchDepartureByDate = (event)=>{
+    event.preventDefault();
+    const filteredRoutes = [];
+    if (event.target.id !== "date") return;
+    (0, _trainRoutes.trainRoutes).forEach((route)=>{
+        if (route.date === event.target.innerText) filteredRoutes.push(route);
+    });
+    renderedTrainRoutes = filteredRoutes;
+    renderRoutes();
+};
+departuresTableBody.addEventListener("click", searchDepartureByDate);
+/////////////////////pokazanie tylko połączeń intercity
+const handleIsIntercityChecked = (event)=>{
+    event.preventDefault();
+    if (event.target.checked) {
+        const filteredArray = [];
+        (0, _trainRoutes.trainRoutes).forEach((route)=>{
+            if (route.intercity) filteredArray.push(route);
+        });
+        renderedTrainRoutes = filteredArray;
+        renderRoutes();
+    } else {
+        renderedTrainRoutes = (0, _trainRoutes.trainRoutes);
+        renderRoutes();
+    }
+};
+checkIsIntericty.addEventListener("change", handleIsIntercityChecked);
+/////////////////
+const renderAllRoutes = (event)=>{
+    event.preventDefault();
+    renderedTrainRoutes = (0, _trainRoutes.trainRoutes);
+    renderRoutes();
+};
+btnShowAll.addEventListener("click", renderAllRoutes);
+
+},{"./trainRoutes":"la5iG"}],"la5iG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "trainRoutes", ()=>trainRoutes);
+const trainRoutes = [
+    {
+        from: "Warszawa",
+        to: "Poznań",
+        date: "23.12.2023",
+        time: "12:45",
+        intercity: true
+    },
+    {
+        from: "Szczecin",
+        to: "Poznań",
+        date: "01.02.2023",
+        time: "12:45",
+        intercity: true
+    },
+    {
+        from: "Szczecin",
+        to: "Zakopane",
+        date: "05.05.2023",
+        time: "20:45",
+        intercity: false
+    },
+    {
+        from: "Warszawa",
+        to: "Krak\xf3w",
+        date: "23.12.2023",
+        time: "20:45",
+        intercity: false
+    },
+    {
+        from: "Wrocław",
+        to: "Warszawa",
+        date: "03.12.2023",
+        time: "20:45",
+        intercity: false
+    },
+    {
+        from: "Bydgoszcz",
+        to: "Kielce",
+        date: "03.12.2023",
+        time: "20:45",
+        intercity: false
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["3Unyy","bDbGG"], "bDbGG", "parcelRequire23e7")
 
