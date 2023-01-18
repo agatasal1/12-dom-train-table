@@ -590,7 +590,7 @@ const renderRoutes = ()=>{
     departuresTableBody.innerHTML = "";
     renderedTrainRoutes.forEach((route)=>{
         departuresTableBody.innerHTML += `
-<tr>
+<tr class='route'>
 <td>${route.from}</td>
 <td>${route.to}</td>
 <td id="date">${route.date}</td>
@@ -615,7 +615,7 @@ const searchDepartureByStation = (event)=>{
     });
     ///////////sprawdzenie czy wpisana stacja jest w trasach
     if (!stations.includes(inputValue)) {
-        parNoTrainsInfo.innerText = "Brak połączeń ze wskazaną stacją";
+        parNoTrainsInfo.innerText = "Brak połączeń ze wskazaną stacją!";
         renderedTrainRoutes = (0, _trainRoutes.trainRoutes);
         return;
     }
@@ -625,6 +625,8 @@ const searchDepartureByStation = (event)=>{
         renderedTrainRoutes = filteredRoutes;
     });
     renderRoutes();
+    checkIsIntericty.checked = false;
+    searchRouteInput.value = "";
 };
 searchDepartureForm.addEventListener("submit", searchDepartureByStation);
 /////////////wyszukiwanie po dacie
@@ -635,6 +637,7 @@ const searchDepartureByDate = (event)=>{
     (0, _trainRoutes.trainRoutes).forEach((route)=>{
         if (route.date === event.target.innerText) filteredRoutes.push(route);
     });
+    checkIsIntericty.checked = false;
     renderedTrainRoutes = filteredRoutes;
     renderRoutes();
 };
@@ -644,7 +647,7 @@ const handleIsIntercityChecked = (event)=>{
     event.preventDefault();
     if (event.target.checked) {
         const filteredArray = [];
-        (0, _trainRoutes.trainRoutes).forEach((route)=>{
+        renderedTrainRoutes.forEach((route)=>{
             if (route.intercity) filteredArray.push(route);
         });
         renderedTrainRoutes = filteredArray;
@@ -660,6 +663,7 @@ const renderAllRoutes = (event)=>{
     event.preventDefault();
     renderedTrainRoutes = (0, _trainRoutes.trainRoutes);
     renderRoutes();
+    checkIsIntericty.checked = false;
 };
 btnShowAll.addEventListener("click", renderAllRoutes);
 

@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  background-color: #09095e;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+#searchPanel {
+  width: 500px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+form {
+  width: 40%;
+  margin: 20px auto;
+  padding: 10px 5px;
+}
+
+form input {
+  width: 100%;
+  cursor: pointer;
+  margin: 10px auto;
+  padding: 5px;
+  display: block;
+}
+
+form label {
+  margin: 10px auto;
+  font-weight: bold;
+  display: block;
+}
+
+#noTrainsInfo {
+  color: red;
+  background-color: #fff;
+  font-size: 15px;
+}
+
+button {
+  color: #fff;
+  background-color: #09095e;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+#checkBoxDiv {
+  margin: 10px auto;
+}
+
+table {
+  width: 60%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+tr.route {
+  height: 40px;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+tr.route:nth-child(2n) {
+  background-color: #78b4b81c;
+}
+
+tr.route:hover {
+  background-color: #3297ae;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

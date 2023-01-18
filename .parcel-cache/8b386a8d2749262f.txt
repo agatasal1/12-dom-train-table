@@ -1,4 +1,8 @@
-4228
+4233
+119C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\syntax\node\Brackets.js133178323013966684 0
+111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-render\package.json133178323010295540 0
+80C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\.gitignore133178327497717385 0
+125C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\node-gyp-build-optional-packages\README.md133178323012367596 0
 134C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js133178323022338251 0
 109C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\entities\lib\maps\xml.json133178323014475011 0
 111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\source-map\lib\quick-sort.js133178323013692367 0
@@ -12,13 +16,15 @@
 82C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\package.json133178324946177980 0
 104C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\ordered-binary\assets133178323013387440 1
 118C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\type-fest\source\readonly-deep.d.ts133178323017650226 0
+116C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\ime.js133178323028159069 0
+79C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\style.css133185101589742194 0
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\utils\src\schema.js133178323020708161 0
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\TO.js133178323036532327 0
+87C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\package-lock.json133178323044189155 0
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\tokenizer\utils.js133178323022754448 0
 92C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-number133178323010478673 1
-87C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\package-lock.json133178323044189155 0
 107C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\abortcontroller-polyfill133178323014613294 1
-74C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist133178324184847043 1
+74C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist133185101591581510 1
 101C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\.package-lock.json133178323044458522 0
 116C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\runtime-react-refresh\lib133178323008988679 1
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\VA.js133178323037869648 0
@@ -36,11 +42,11 @@
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\TT.js133178323037357940 0
 123C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\source-map-support\source-map-support.js133178323011382254 0
 111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\nth-check\lib\index.d.ts.map133178323014593287 0
-80C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\index.html133178323444112780 0
+80C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\index.html133185100928471677 0
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\cosmiconfig\dist\types.d.ts133178323018821036 0
 118C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\svgo\plugins\cleanupListOfValues.js133178323014337913 0
 112C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\syntax\create.js133178323017257033 0
-72C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\js133176659620816645 1
+72C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\js133179144353153774 1
 134C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133178323019297085 0
 129C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@swc\helpers\src\_class_private_field_init.mjs133178323022297409 0
 113C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\optimizer-htmlnano\lib133178323010999252 1
@@ -111,8 +117,8 @@
 93C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\semver\bin133178323008848673 1
 108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\utils\src\glob.js133178323017165481 0
 102C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\terser\lib\scope.js133178323020071442 0
-90C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel133178322987533039 1
 105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-arrayish\.npmignore133178323008768684 0
+90C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel133178322987533039 1
 138C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\020-usage.md133178323020196658 0
 91C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\entities133178323016194655 1
 112C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\mdn-data\css\definitions.json133178323013956658 0
@@ -203,13 +209,6 @@
 92C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\lmdb\dist133178323022969547 1
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\GG.js133178323026997984 0
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-render\dist\index.d.ts133178323012215391 0
-103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\term-size\index.d.ts133178323013577217 0
-105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\nth-check\lib\index.js133178323011651806 0
-108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@swc\helpers\src\_get.mjs133178323022926211 0
-120C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\svg-css.js133178323035221718 0
-100C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\terser\bin\terser133178323010308684 0
-178C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\bar133178323022187134 1
-90C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-json133178323012089209 1
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\svgo\lib\svgo\css-class-list.js133178323016950588 0
 123C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\csso\lib\replace\property\font-weight.js133178323017838599 0
 122C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\reporter-cli\src\CLIReporter.js133178323013158856 0
@@ -278,14 +277,14 @@
 117C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\type-fest\source\package-json.d.ts133178323016987340 0
 130C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\fieldset-disabled.js133178323026137808 0
 128C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\custom-elements.js133178323025235694 0
+114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\AM.js133178323017042450 0
+107C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\svgo\lib\svgo\jsAPI.d.ts133178323021462684 0
+111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-parser\package.json133178323011558990 0
 103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\safe-buffer\index.js133178323008828687 0
 128C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\core\test\ParcelConfigRequest.test.js133178323022269909 0
 115C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\react-error-overlay\lib\index.js133178323012542774 0
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\domutils\lib\index.d.ts.map133178323014337913 0
 103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\escape-string-regexp133178323010468698 1
-114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\AM.js133178323017042450 0
-107C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\svgo\lib\svgo\jsAPI.d.ts133178323021462684 0
-111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-parser\package.json133178323011558990 0
 104C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\htmlnano\package.json133178323019416631 0
 93C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\fill-range133178323010508678 1
 140C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\runtime-js\lib\helpers\browser\prefetch-loader.js133178323017987118 0
@@ -313,6 +312,13 @@
 113C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\node-addon-api\tools\README.md133178323016626969 0
 104C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\browserslist\error.js133178323010798672 0
 94C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-arrayish133178323012613719 1
+103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\term-size\index.d.ts133178323013577217 0
+105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\nth-check\lib\index.js133178323011651806 0
+108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@swc\helpers\src\_get.mjs133178323022926211 0
+120C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\svg-css.js133178323035221718 0
+100C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\terser\bin\terser133178323010308684 0
+178C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\bar133178323022187134 1
+90C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-json133178323012089209 1
 120C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@swc\helpers\lib\_get_prototype_of.js133178323019227722 0
 92C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\js-tokens133178323011252265 1
 106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\color-convert\README.md133178323012022780 0
@@ -332,8 +338,8 @@
 95C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\lightningcss133178323014064234 1
 105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\ansi-styles\index.d.ts133178323011558990 0
 133C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.h133178323021937357 0
-140C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\css-font-rendering-controls.js133178323023581505 0
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\ER.js133178323025877041 0
+140C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\css-font-rendering-controls.js133178323023581505 0
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\lightningcss-win32-x64-msvc133178323009778696 1
 106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\core\index.d.ts133178323024362544 0
 99C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\json5\lib\cli.js133178323008300984 0
@@ -678,10 +684,10 @@
 113C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\source-map\lib\mapping-list.js133178323013325752 0
 96C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\svgo\lib\svgo133178323021450277 1
 118C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\yaml\browser\dist\legacy-exports.js133178323013978076 0
-106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\braces\lib\constants.js133178323012784664 0
-123C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\yaml\browser\dist\PlainValue-b8036b75.js133178323017052450 0
 106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-arrayish\.travis.yml133178323012815544 0
 93C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\braces\lib133178323013966684 1
+106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\braces\lib\constants.js133178323012784664 0
+123C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\yaml\browser\dist\PlainValue-b8036b75.js133178323017052450 0
 106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-extglob\package.json133178323008068722 0
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\node-gyp-build\package.json133178323012287080 0
 123C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\yaml\browser\dist\resolveSeq-492ab440.js133178323017507694 0
@@ -1138,7 +1144,7 @@
 105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\tokenizer133178323022744458 1
 117C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\svgo\plugins\convertShapeToPath.js133178323016400916 0
 108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\watcher\prebuilds133178323020111074 1
-85C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.html133178324184344823 0
+85C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.html133185101591420260 0
 103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\is-extglob\README.md133178323008810797 0
 108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-select\lib\types.d.ts133178323018581045 0
 111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\packager-raw\LICENSE133178323008210000 0
@@ -1428,9 +1434,6 @@
 103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-render\dist133178323012120359 1
 106C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-render\license133178323008118696 0
 135C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@jridgewell\trace-mapping\dist\trace-mapping.mjs.map133178323011502274 0
-119C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\syntax\node\Brackets.js133178323013966684 0
-111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-render\package.json133178323010295540 0
-125C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\node-gyp-build-optional-packages\README.md133178323012367596 0
 115C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\postcss-value-parser\lib\unit.js133178323011691816 0
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\HR.js133178323027862517 0
 108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\posthtml-render\readme.md133178323011810674 0
@@ -2236,6 +2239,7 @@
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\regions\GR.js133178323027375680 0
 105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\domhandler\lib\node.js133178323010378768 0
 119C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@swc\helpers\lib\_define_property.js133178323018951033 0
+93C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.3a01df49.css133185101591420260 0
 101C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\domelementtype\lib133178323013716184 1
 105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\domelementtype\LICENSE133178323008028696 0
 105C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\domelementtype\lib\esm133178323013315732 1
@@ -2503,8 +2507,8 @@
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\lexer\match.js133178323021277350 0
 111C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\lexer\search.js133178323022211605 0
 115C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\generator\create.js133178323016697822 0
-128C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\transformer-svg\src\SVGTransformer.js133178323013125415 0
 116C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@jridgewell\gen-mapping\README.md133178323012357561 0
+128C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\transformer-svg\src\SVGTransformer.js133178323013125415 0
 114C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\generator\index.js133178323020517258 0
 125C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\css-tree\lib\definition-syntax\generate.js133178323019857402 0
 103C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\packager-svg133178323010988684 1
@@ -3036,7 +3040,6 @@
 128C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\iframe-seamless.js133178323028048349 0
 126C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\iframe-srcdoc.js133178323028088333 0
 125C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\imagecapture.js133178323028139063 0
-116C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\ime.js133178323028159069 0
 124C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\caniuse-lite\data\features\import-maps.js133178323028189964 0
 110C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\reporter-dev-server133178323016529396 1
 107C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\cache\index.d.ts133178323014624076 0
@@ -3785,6 +3788,7 @@
 150C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\index.js133178323013946659 0
 121C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\packager-js\src\dev-prelude.js133178323011741547 0
 125C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\packager-js\src\ESMOutputFormat.js133178323013463738 0
+97C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.3a01df49.css.map133185101591551541 0
 128C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\packager-js\src\GlobalOutputFormat.js133178323014001824 0
 108C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@lezer\lr\dist\stack.d.ts133178323013999519 0
 115C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\@parcel\packager-js\src\utils.js133178323016034666 0
@@ -4223,7 +4227,8 @@
 98C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\.bin\semver.cmd133178323039905645 0
 92C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\.bin\svgo133178323039935649 0
 98C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\node_modules\.bin\terser.ps1133178323039905645 0
-80C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\js\main.js133178316354883016 0
-92C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.fbb3188c.js133178324184821457 0
-96C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.fbb3188c.js.map133178324184847043 0
+80C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\js\main.js133184616144177192 0
+87C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\js\trainRoutes.js133179413879615957 0
+92C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.fbb3188c.js133185101591386209 0
+96C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\dist\index.fbb3188c.js.map133185101591544772 0
 91C:\Users\Agata\Desktop\Kurs ALX\js-podstawowy-apps\12-dom-train-table\.vscode\settings.json133178320288556825 0

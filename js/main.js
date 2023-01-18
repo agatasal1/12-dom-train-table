@@ -70,11 +70,8 @@ const renderRoutes = () => {
     departuresTableBody.innerHTML = ''
 
     renderedTrainRoutes.forEach(route => {
-
-
-
         departuresTableBody.innerHTML += `
-<tr>
+<tr class='route'>
 <td>${route.from}</td>
 <td>${route.to}</td>
 <td id="date">${route.date}</td>
@@ -116,7 +113,7 @@ const searchDepartureByStation = (event) => {
     ///////////sprawdzenie czy wpisana stacja jest w trasach
 
     if (!stations.includes(inputValue)) {
-        parNoTrainsInfo.innerText = 'Brak połączeń ze wskazaną stacją';
+        parNoTrainsInfo.innerText = 'Brak połączeń ze wskazaną stacją!';
         renderedTrainRoutes = trainRoutes;
         return
     }
@@ -127,10 +124,15 @@ const searchDepartureByStation = (event) => {
         if (route.from.toLowerCase() === inputValue ||
             route.to.toLowerCase() === inputValue) {
             filteredRoutes.push(route)
+
         }
         renderedTrainRoutes = filteredRoutes;
     })
+
+
     renderRoutes();
+    checkIsIntericty.checked = false;
+    searchRouteInput.value = ''
 }
 
 
@@ -156,7 +158,7 @@ const searchDepartureByDate = (event) => {
             filteredRoutes.push(route)
         }
     })
-
+    checkIsIntericty.checked = false;
     renderedTrainRoutes = filteredRoutes;
     renderRoutes()
 }
@@ -175,8 +177,7 @@ const handleIsIntercityChecked = (event) => {
     event.preventDefault();
     if (event.target.checked) {
         const filteredArray = [];
-
-        trainRoutes.forEach(route => {
+        renderedTrainRoutes.forEach(route => {
             if (route.intercity) {
 
                 filteredArray.push(route)
@@ -190,8 +191,6 @@ const handleIsIntercityChecked = (event) => {
         renderedTrainRoutes = trainRoutes
         renderRoutes()
     }
-
-
 }
 
 checkIsIntericty.addEventListener('change', handleIsIntercityChecked)
@@ -201,8 +200,9 @@ checkIsIntericty.addEventListener('change', handleIsIntercityChecked)
 
 const renderAllRoutes = (event) => {
     event.preventDefault()
-    renderedTrainRoutes = trainRoutes
+    renderedTrainRoutes = trainRoutes;
     renderRoutes()
+    checkIsIntericty.checked = false;
 }
 
 

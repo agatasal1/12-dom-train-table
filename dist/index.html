@@ -6,22 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/index.3a01df49.css">
 </head>
 
 <body>
-  <h1>Trains timetable</h1>
-  <img src="https://oyakata.com.pl/wp-content/uploads/2022/08/szybkie-pociagi-w-japonii-kolej-shinkansen.jpg" alt="">
-  <h1>Odjazdy/Departures</h1>
 
-  <h3>1 I - 31 III 2023</h3>
-  <button id="btnShowAll">Pokaż wszystkie połączenia</button>
-  <form id="searchDeparture">
-    <label>Wpisz nazwę stacji: <input type="text" id="searchRouteInput"></label>
-    <button>Wyszukaj połączenie</button>
-  </form>
-  <p id="noTrainsInfo"></p>
-  <div id="checkBoxDiv">
-    <label for=""> <input type="checkbox" id="checkIsIntericty"> Intercity</label>
+  <h1 id="title">Rozkład jazdy pociągów - odjazdy</h1>
+
+  <section>
+    <div id="searchPanel">
+
+      <form id="searchDeparture">
+        <label>Wpisz nazwę stacji: <input type="text" id="searchRouteInput"></label>
+        <p id="noTrainsInfo"></p>
+        <button>Wyszukaj połączenie</button>
+
+      </form>
+    </div>
+    <div id="checkBoxDiv">
+
+      <h4>Opcje połączeń:</h4>
+      <label for=""> <input type="checkbox" id="checkIsIntericty"> Intercity</label>
+    </div>
+
+
     <table id="departuresTable">
       <thead>
         <th>Stacja początkowa </th>
@@ -34,9 +42,10 @@
 
     </table>
 
-  </div>
 
+    <button id="btnShowAll">Pokaż wszystkie połączenia</button>
 
+  </section>
 
   <script src="/index.fbb3188c.js" defer=""></script>
 </body>
